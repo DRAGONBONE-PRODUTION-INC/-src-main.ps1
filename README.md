@@ -2997,3 +2997,43 @@ cs, diagnostics, forecasting, SLA governance, supplier segmentation, and automat
 >>
 >> Go to:
 >> 1. Add the Key Influencers visual
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Marksman", "Marksman\Marksman.fsproj", "{70710B11-600C-4EA8-B927-8F964FDC079A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Tests\Tests.fsproj", "{28A81CE7-6A0A-4262-94E7-788A6EDD4DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdigPatches", "MarkdigPatches\MarkdigPatches.csproj", "{4018222A-E489-4B9E-8B03-3F772DDEA6F6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LanguageServerProtocol", "LanguageServerProtocol\LanguageServerProtocol.fsproj", "{0818D3FB-F6FA-4C0F-B681-8BCB03680562}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Benchmarks", "Benchmarks\Benchmarks.fsproj", "{4A518AAD-F243-41A8-A999-D44031DF587C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70710B11-600C-4EA8-B927-8F964FDC079A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70710B11-600C-4EA8-B927-8F964FDC079A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70710B11-600C-4EA8-B927-8F964FDC079A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70710B11-600C-4EA8-B927-8F964FDC079A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A81CE7-6A0A-4262-94E7-788A6EDD4DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A81CE7-6A0A-4262-94E7-788A6EDD4DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A81CE7-6A0A-4262-94E7-788A6EDD4DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A81CE7-6A0A-4262-94E7-788A6EDD4DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4018222A-E489-4B9E-8B03-3F772DDEA6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4018222A-E489-4B9E-8B03-3F772DDEA6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4018222A-E489-4B9E-8B03-3F772DDEA6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4018222A-E489-4B9E-8B03-3F772DDEA6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0818D3FB-F6FA-4C0F-B681-8BCB03680562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0818D3FB-F6FA-4C0F-B681-8BCB03680562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0818D3FB-F6FA-4C0F-B681-8BCB03680562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0818D3FB-F6FA-4C0F-B681-8BCB03680562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A518AAD-F243-41A8-A999-D44031DF587C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A518AAD-F243-41A8-A999-D44031DF587C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A518AAD-F243-41A8-A999-D44031DF587C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A518AAD-F243-41A8-A999-D44031DF587C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
